@@ -1,0 +1,57 @@
+#home {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 2em;
+  color: #c9d1d9;
+}
+
+#home > div {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+#home > div:hover {
+  border-color: #58a6ff;
+  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.2);
+}
+
+#home .btn {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5em 1em;
+  margin: 0.3em 0 1em 0;
+  background-color: #58a6ff;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+#home .btn:hover {
+  background-color: #1f6feb; /* tom de azul mais escuro para hover */
+}
+
+/* Mensagem quando não há fotos */
+.no-photos {
+  text-align: center;
+  font-size: 1.1em;
+  color: #8b949e;
+}
+
+.no-photos a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.no-photos a:hover {
+  text-decoration: underline;
+}
