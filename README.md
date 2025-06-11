@@ -19,6 +19,6 @@
 
 ---
 
-[Assista ao vídeo no YouTube](https://youtu.be/PSCg71xIzC0)
+[![Watch the demo]](https://youtu.be/PSCg71xIzC0)
 
 Feel free to fork, clone, and contribute to this project!
