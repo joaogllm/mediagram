@@ -34,7 +34,7 @@ const Login = () => {
 
   return (
     <div id="login">
-      <h2>ReactGram</h2>
+      <h2>Mediagram</h2>
       <p className="subtitle">Faça o login para ver os posts</p>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="E-mail" onChange={(e)=>setEmail(e.target.value)} value={email || ''}/>

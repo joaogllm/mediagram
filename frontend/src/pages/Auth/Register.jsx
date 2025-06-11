@@ -42,7 +42,7 @@ const Register = () => {
 
   return (
     <div id="register">
-      <h2>ReactGram</h2>
+      <h2>Mediagram</h2>
       <p className="subtitle">Cadastra-se para ver as fotos dos seus amigos</p>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Nome" onChange={(e)=>setName(e.target.value)} value={name || ""}/>
